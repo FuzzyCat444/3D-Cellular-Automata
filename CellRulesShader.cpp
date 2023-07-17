@@ -196,7 +196,7 @@ void main()
 	const int FORWARD = gl_GlobalInvocationID.z == DEPTH - 1 ? -(WIDTH_HEIGHT_DEPTH - WIDTH_HEIGHT) : WIDTH_HEIGHT;
 
 	// Count total number of live neighbors surrounding each cell (there are 26 neighboring cells, 3x3x3 - 1 = 27 - 1 = 26)
-	// $$COUNT_NEIGHBORS is replaced by 26 statements to count each neighbor; view the code in the console window to see how this works.
+	// COUNT_NEIGHBORS is replaced by 26 statements to count each neighbor; view the code in the console window to see how this works.
 	int n = 0;
 	$$COUNT_NEIGHBORS
 
