@@ -2,6 +2,7 @@
 #include <GL/glew.h>
 #include <SDL.h>
 #include <glm/glm.hpp>
+#include <glm/gtx/rotate_vector.hpp>
 
 #include <iostream>
 #include <vector>
